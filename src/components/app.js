@@ -1,9 +1,13 @@
-var React = require('react');
+import React from 'react';
+import { UserList } from './user-list.component';
 
 const App = (props) => {
     return (
-        <h1>Hello React</h1>
+        <div>
+            <h1>My Users App</h1>
+            <UserList />
+        </div>
     )
 };
 
-module.exports = App;
+export default App;

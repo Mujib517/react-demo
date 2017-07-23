@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack -w",
     "start": "webpack-dev-server"
   },
   "keywords": [],
   "author": "MD M Rahman <mujib517@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.16.2",
+    "bootstrap": "^3.3.7",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   },
